@@ -53,7 +53,7 @@ $ pip install deepface
 Alternatively, you can also install deepface from its source code. Source code may have new features not published in pip release yet.
 
 ```shell
-$ git clone https://github.com/serengil/deepface.git
+$ git clone https://github.com/samyog944966/DeepFace.git
 $ cd deepface
 $ pip install -e .
 ```
@@ -368,70 +368,8 @@ Additionally, you can help us reach a wider audience by upvoting our posts on Ha
 </div>
 -->
 
-## Citation
-
-Please cite deepface in your publications if it helps your research.
-
-<details open>
-  <summary>S. Serengil and A. Ozpinar, <b>"A Benchmark of Facial Recognition Pipelines and Co-Usability Performances of Modules"</b>, <i>Journal of Information Technologies</i>, vol. 17, no. 2, pp. 95-107, 2024.</summary>
-  
-  ```BibTeX
-  @article{serengil2024lightface,
-    title     = {A Benchmark of Facial Recognition Pipelines and Co-Usability Performances of Modules},
-    author    = {Serengil, Sefik and Ozpinar, Alper},
-    journal   = {Journal of Information Technologies},
-    volume    = {17},
-    number    = {2},
-    pages     = {95-107},
-    year      = {2024},
-    doi       = {10.17671/gazibtd.1399077},
-    url       = {https://dergipark.org.tr/en/pub/gazibtd/issue/84331/1399077},
-    publisher = {Gazi University}
-  }
-  ```
-</details>
-
-<details>
-  <summary>S. I. Serengil and A. Ozpinar, <b>"LightFace: A Hybrid Deep Face Recognition Framework"</b>, <i>2020 Innovations in Intelligent Systems and Applications Conference (ASYU)</i>, 2020, pp. 23-27.</summary>
-  
-  ```BibTeX
-  @inproceedings{serengil2020lightface,
-    title        = {LightFace: A Hybrid Deep Face Recognition Framework},
-    author       = {Serengil, Sefik Ilkin and Ozpinar, Alper},
-    booktitle    = {2020 Innovations in Intelligent Systems and Applications Conference (ASYU)},
-    pages        = {23-27},
-    year         = {2020},
-    doi          = {10.1109/ASYU50717.2020.9259802},
-    url          = {https://ieeexplore.ieee.org/document/9259802},
-    organization = {IEEE}
-  }
-  ```
-</details>
-
-<details>
-  <summary>S. I. Serengil and A. Ozpinar, <b>"HyperExtended LightFace: A Facial Attribute Analysis Framework"</b>, <i>2021 International Conference on Engineering and Emerging Technologies (ICEET)</i>, 2021, pp. 1-4.</summary>
-  
-  ```BibTeX
-  @inproceedings{serengil2021lightface,
-    title        = {HyperExtended LightFace: A Facial Attribute Analysis Framework},
-    author       = {Serengil, Sefik Ilkin and Ozpinar, Alper},
-    booktitle    = {2021 International Conference on Engineering and Emerging Technologies (ICEET)},
-    pages        = {1-4},
-    year         = {2021},
-    doi          = {10.1109/ICEET53442.2021.9659697},
-    url          = {https://ieeexplore.ieee.org/document/9659697},
-    organization = {IEEE}
-  }
-  ```
-</details>
-
-</details>
-
 Also, if you use deepface in your GitHub projects, please add `deepface` in the `requirements.txt`.
 
-## Licence
-
-DeepFace is licensed under the MIT License - see [`LICENSE`](https://github.com/serengil/deepface/blob/master/LICENSE) for more details.
 
 DeepFace wraps some external face recognition models: [VGG-Face](http://www.robots.ox.ac.uk/~vgg/software/vgg_face/), [Facenet](https://github.com/davidsandberg/facenet/blob/master/LICENSE.md) (both 128d and 512d), [OpenFace](https://github.com/iwantooxxoox/Keras-OpenFace/blob/master/LICENSE), [DeepFace](https://github.com/swghosh/DeepFace), [DeepID](https://github.com/Ruoyiran/DeepID/blob/master/LICENSE.md), [ArcFace](https://github.com/leondgarse/Keras_insightface/blob/master/LICENSE), [Dlib](https://github.com/davisking/dlib/blob/master/dlib/LICENSE.txt), [SFace](https://github.com/opencv/opencv_zoo/blob/master/models/face_recognition_sface/LICENSE), [GhostFaceNet](https://github.com/HamadYA/GhostFaceNets/blob/main/LICENSE) and
 [Buffalo_L](https://github.com/deepinsight/insightface/blob/master/README.md). Besides, age, gender and race / ethnicity models were trained on the backbone of VGG-Face with transfer learning. Similarly, DeepFace wraps many face detectors: [OpenCv](https://github.com/opencv/opencv/blob/4.x/LICENSE), [Ssd](https://github.com/opencv/opencv/blob/master/LICENSE), [Dlib](https://github.com/davisking/dlib/blob/master/LICENSE.txt), [MtCnn](https://github.com/ipazc/mtcnn/blob/master/LICENSE), [Fast MtCnn](https://github.com/timesler/facenet-pytorch/blob/master/LICENSE.md), [RetinaFace](https://github.com/serengil/retinaface/blob/master/LICENSE), [MediaPipe](https://github.com/google/mediapipe/blob/master/LICENSE), [YuNet](https://github.com/ShiqiYu/libfacedetection/blob/master/LICENSE), [Yolo](https://github.com/derronqi/yolov8-face/blob/main/LICENSE) and [CenterFace](https://github.com/Star-Clouds/CenterFace/blob/master/LICENSE). Finally, DeepFace is optionally using [face anti spoofing](https://github.com/minivision-ai/Silent-Face-Anti-Spoofing/blob/master/LICENSE) to determine the given images are real or fake. License types will be inherited when you intend to utilize those models. Please check the license types of those models for production purposes.
